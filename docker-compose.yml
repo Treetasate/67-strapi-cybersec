@@ -2,7 +2,7 @@ version: '3'
 
 services:
  app:
-  image: treetasat/app:1.0.0
+  image: treesg001/app:1.0.0
 
   container_name: 67-ced-strapi
   restart: unless-stopped
