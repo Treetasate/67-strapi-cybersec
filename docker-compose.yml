@@ -23,7 +23,7 @@ services:
     - "1337:1337"
 
   db:
-    image: postgres:13
+    image: postgres:15.5-bullseye
     container_name: 67-ced-db
     restart: unless-stopped
     env_file: .env
