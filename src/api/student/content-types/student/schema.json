@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "number_student": {
+      "type": "integer"
+    },
+    "branch": {
+      "type": "text"
+    },
+    "faculty": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "birthday": {
+      "type": "date"
+    }
+  }
+}

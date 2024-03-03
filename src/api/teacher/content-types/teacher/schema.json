@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "teachers",
+  "info": {
+    "singularName": "teacher",
+    "pluralName": "teachers",
+    "displayName": "Teacher",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "number_theacher": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "faculty": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}

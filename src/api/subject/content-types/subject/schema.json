@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "subjects",
+  "info": {
+    "singularName": "subject",
+    "pluralName": "subjects",
+    "displayName": "Subject"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teacher_first_name": {
+      "type": "string"
+    },
+    "study_day": {
+      "type": "date"
+    },
+    "time": {
+      "type": "decimal"
+    },
+    "name_subject": {
+      "type": "string"
+    }
+  }
+}

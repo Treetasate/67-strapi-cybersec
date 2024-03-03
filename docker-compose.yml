@@ -1,7 +1,7 @@
 version: '3'
 services: # Include of
   strapi_server:
-    image: treesg001/app:1.0.0
+    image: treesg001/app:1.1.0
     container_name: 67-ced-app
     restart: unless-stopped
     env_file: .env
@@ -15,7 +15,7 @@ services: # Include of
     depends_on:
       - db
     ports:
-      - 5555:1337 
+      - 8082:1337 
   db:
     image: postgres:13
     container_name: 67-ced-db
